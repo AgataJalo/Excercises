@@ -6,13 +6,30 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
+        <div class="container">
+        <nav class="main-navigation">
+            <ul class="page-nav-list">
+                <li class="nav-el">
+                    <a href="" class="menu-links">Profile</a>
+                </li>
+                <li class="nav-el">
+                    <a href="" class="menu-links">Galerry</a>
+                </li>
+                <li class="nav-el">
+                    <a href="" class="menu-links">Vote!</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="vote-section">
             <img src="images/mountains.jpg">
             <p class="pictureTitle">Snowy, winter view!<p>
             <p id="likes">0 likes</p>
             <button id="up" onclick="uplikes()">Like</button>
             <button id="down" onclick="downlikes()">Dislike</button>
-        </div>    
+        </div>
+    </div>       
+
      <script src="app.js"></script>   
     </body>  
 </html>

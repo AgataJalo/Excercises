@@ -1,12 +1,19 @@
  body{
-    font-family: 'Cormorant Garamond', serif
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0 auto;
  }
 
-div{
+ .container{
+    max-width: 100vw;
+    margin:0 auto;
+ }
+
+.vote-section{
     text-align: center;
 }
 
 img{
+    margin-top:10px;
     width: 400px;
     height:500px;
 }
@@ -34,4 +41,26 @@ button{
 
 #down{
     background-color: lightsalmon;
+}
+
+/*Navigation*/
+
+
+.page-nav-list{
+    list-style: none;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: flex-end;
+    margin:0;
+    padding:10px;
+}
+
+.nav-el{
+ margin-left: 20px;
+}
+
+.menu-links{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 25px;
 }

@@ -7,6 +7,7 @@ function uplikes(){
 }
 
 
+
 function downlikes(){
     counter = counter- 1;
 
